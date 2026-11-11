@@ -4,12 +4,12 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pmri-digitrax"
-version = "0.1.1"
+version = "0.1.2"
 description = "Digitrax command station driver stub for PMRI -- entry-point placeholder; LocoNet transport delegated to pmri-loconet."
 requires-python = ">=3.12"
 license = "GPL-2.0-or-later"
 dependencies = [
-    "pmri==0.1.1",
+    "pmri>=0.1.1,<0.2",
 ]
 
 [project.optional-dependencies]
